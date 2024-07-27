@@ -3,25 +3,25 @@
 </p>
 
 <h1>Building Intuition for DNS</h1>
-In this tutorial, we observe various network traffic to and from Azure Virtual Machines with Wireshark as well as experiment with Network Security Groups. <br />
+In this tutorial, we look to get a basic understanding of what DNS (Domain Name System) is and how it works. <br />
 
 
 <h2>Video Demonstration</h2>
 
-- ### [YouTube: Azure Virtual Machines, Wireshark, and Network Security Groups](https://www.youtube.com)
+- ### [YouTube: Understanding DNS](https://www.youtube.com/watch?v=MqBGjappbTk)
 
-<h2>Environments and Technologies Used</h2>
+<h2>Environments and Technologies Prerequisites and Requirements Used</h2>
 
 - Microsoft Azure (Virtual Machines/Compute)
 - Remote Desktop
 - Various Command-Line Tools
-- Various Network Protocols (SSH, RDH, DNS, HTTP/S, ICMP)
-- Wireshark (Protocol Analyzer)
+- Active Directory Domain Services running in Azure on VM DC-1 (requirement)
+- A client machine running in Azure on VM Client-1 and joined to the domain (requirement)
 
 <h2>Operating Systems Used </h2>
 
 - Windows 10 (21H2)
-- Ubuntu Server 20.04
+- Windows Server 2022
 
 <h2>High-Level Steps</h2>
 
