@@ -72,11 +72,11 @@ In this step, we went back to DC-1 and changed mainframe’s record address (IP 
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/PzgwSae.png" height="80%" width="80%" alt="same IP address 1"/>
+<img src="https://i.imgur.com/m9vcUVO.png" height="80%" width="80%" alt="same IP address 2"/>
 </p>
 <p>
-Create a DNS A-record on DC-1 for “mainframe” and have it point to DC-1’s Private IP address
-Go back to Client-1 and try to ping it. Observe that it works.
+In this step, we went back to Client-1 and pinged “mainframe” again. We observed that it still pinged the old address (10.0.0.4).
 </p>
 <br />
 
