@@ -55,6 +55,7 @@ In this step, inside of Client-1, we tried to ping “mainframe”, but it fails
 <img src="https://i.imgur.com/KoyVZI3.png" height="80%" width="80%" alt="create A-Record for 'mainframe'2"/>
 <img src="https://i.imgur.com/p7jOuVZ.png" height="80%" width="80%" alt="ping 'mainframe' again, it works"/>
 <img src="https://i.imgur.com/ouajxEg.png" height="80%" width="80%" alt="ping 'mainframe' again, it works 2"/>
+<img src="https://i.imgur.com/lBs30V8.png" height="80%" width="80%" alt="ping 'mainframe' again, it works 3"/>
 </p>
 <p>
 In this step, we created a DNS A-record on DC-1 for “mainframe” and we had it point to DC-1’s Private IP address (which is 10.0.0.4).  Then we went back to Client-1 and tried to ping it and observed that it worked the second time.
@@ -62,11 +63,11 @@ In this step, we created a DNS A-record on DC-1 for “mainframe” and we had i
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/MUkQSpZ.png" height="80%" width="80%" alt="(a) changed 'mainframe's' A-Record address to 8.8.8.8"/>
+<img src="https://i.imgur.com/Il0MLCy.png" height="80%" width="80%" alt="(b) changed 'mainframe's' A-Record address to 8.8.8.8"/>
 </p>
 <p>
-Create a DNS A-record on DC-1 for “mainframe” and have it point to DC-1’s Private IP address
-Go back to Client-1 and try to ping it. Observe that it works.
+In this step, we went back to DC-1 and changed mainframe’s record address (IP address) to 8.8.8.8 .
 </p>
 <br />
 
