@@ -96,7 +96,29 @@ In this step, we flushed the DNS cache and observed that the cache is empty.
 </p>
 <p>
 After we flushed the DNS cache, we attempted to ping “mainframe” again and observe the address of the new record is showing up (8.8.8.8)  The reason is because at first, Client-1 used the local cache instead of the DNS server in order to retrieve mainframe's IP address.  When we flushed the local cache and cleared all of the data out, Client-1 was forced to ask the DNS server for mainframe's IP address.  And when Client-1 asked the DNS server, it retrieved the updated IP address.
+</p>
+<br />
 
-.
+<p>
+<img src="https://i.imgur.com/qs1Whdu.png" height="80%" width="80%" alt="tried a failed ping to 'search'"/>
+</p>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 </p>
 <br />
