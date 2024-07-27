@@ -81,9 +81,9 @@ In this step, we went back to Client-1 and pinged “mainframe” again. We obse
 <br />
 
 <p>
-<img src="https://i.imgur.com/IIQPHJB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="https://i.imgur.com/X6zhW56.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="https://i.imgur.com/tYTmsqg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/IIQPHJB.png" height="80%" width="80%" alt="DNS flush 1"/>
+<img src="https://i.imgur.com/X6zhW56.png" height="80%" width="80%" alt="DNS flush 2"/>
+<img src="https://i.imgur.com/tYTmsqg.png" height="80%" width="80%" alt="DNS flush 3"/>
 </p>
 <p>
 In this step, we flushed the DNS cache and observed that the cache is empty.
@@ -91,10 +91,12 @@ In this step, we flushed the DNS cache and observed that the cache is empty.
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/5DnOiYO.png" height="80%" width="80%" alt="New DNS record"/>
+<img src="https://i.imgur.com/X8yc4ht.png" height="80%" width="80%" alt="New DNS record 2"/>
 </p>
 <p>
-Create a DNS A-record on DC-1 for “mainframe” and have it point to DC-1’s Private IP address
-Go back to Client-1 and try to ping it. Observe that it works.
+After we flushed the DNS cache, we attempted to ping “mainframe” again and observe the address of the new record is showing up (8.8.8.8)  The reason is because at first, Client-1 used the local cache instead of the DNS server in order to retrieve mainframe's IP address.  When we flushed the local cache and cleared all of the data out, Client-1 was forced to ask the DNS server for mainframe's IP address.  And when Client-1 asked the DNS server, it retrieved the updated IP address.
+
+.
 </p>
 <br />
