@@ -103,15 +103,17 @@ After we flushed the DNS cache, we attempted to ping “mainframe” again and o
 <img src="https://i.imgur.com/qs1Whdu.png" height="80%" width="80%" alt="tried a failed ping to 'search'"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+In this step, we completed a CNAME Record exercise (A CNAME record maps an alias name to an actual IP address-name to name mapping).  We first tried to ping 'search', but the ping failed.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/pEswut5.png" height="80%" width="80%" alt="created CNAME Record for 'search'"/>
+<img src="https://i.imgur.com/f1oq0tm.png" height="80%" width="80%" alt="created CNAME Record for 'search'2"/>
+<img src="https://i.imgur.com/nw9QCL1.png" height="80%" width="80%" alt="created CNAME Record for 'search'3"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+In this step, we went back to DC-1 and created a CNAME record that points the host “search” to “www.google.com”.
 </p>
 <br />
 
