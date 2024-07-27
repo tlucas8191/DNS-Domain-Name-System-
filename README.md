@@ -51,9 +51,48 @@ In this step, inside of Client-1, we tried to ping “mainframe”, but it fails
 <br />
 
 <p>
+<img src="https://i.imgur.com/SnTAP69.png" height="80%" width="80%" alt="create A-Record for 'mainframe'"/>
+<img src="https://i.imgur.com/KoyVZI3.png" height="80%" width="80%" alt="create A-Record for 'mainframe'2"/>
+<img src="https://i.imgur.com/p7jOuVZ.png" height="80%" width="80%" alt="ping 'mainframe' again, it works"/>
+<img src="https://i.imgur.com/ouajxEg.png" height="80%" width="80%" alt="ping 'mainframe' again, it works 2"/>
+</p>
+<p>
+In this step, we created a DNS A-record on DC-1 for “mainframe” and we had it point to DC-1’s Private IP address (which is 10.0.0.4).  Then we went back to Client-1 and tried to ping it and observed that it worked the second time.
+</p>
+<br />
+
+<p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Create a DNS A-record on DC-1 for “mainframe” and have it point to DC-1’s Private IP address
+Go back to Client-1 and try to ping it. Observe that it works.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Create a DNS A-record on DC-1 for “mainframe” and have it point to DC-1’s Private IP address
+Go back to Client-1 and try to ping it. Observe that it works.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Create a DNS A-record on DC-1 for “mainframe” and have it point to DC-1’s Private IP address
+Go back to Client-1 and try to ping it. Observe that it works.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Create a DNS A-record on DC-1 for “mainframe” and have it point to DC-1’s Private IP address
+Go back to Client-1 and try to ping it. Observe that it works.
 </p>
 <br />
