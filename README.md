@@ -37,15 +37,16 @@ In this tutorial, we look to get a basic understanding of what DNS (Domain Name 
 <img src="https://i.imgur.com/3SoeoqC.png" height="80%" width="80%" alt="Logging into Client-1"/>
 </p>
 <p>
-In thist step, we logged into DC-1 as domain admin account and also logged into Client-1 as an admin.
+In this step, we logged into DC-1 as domain admin account and also logged into Client-1 as an admin.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/pINBayL.png" height="80%" width="80%" alt="pinging 'mainframe', it fails"/>
+<img src="https://i.imgur.com/8yl2YSZ.png" height="80%" width="80%" alt="pic of why pinging 'mainframe' fails"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+In this step, inside of Client-1, we tried to ping “mainframe”, but it fails because “mainframe” does not have a DNS record.
 </p>
 <br />
 
