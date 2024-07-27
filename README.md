@@ -25,10 +25,10 @@ In this tutorial, we look to get a basic understanding of what DNS (Domain Name 
 
 <h2>High-Level Steps</h2>
 
-- Step 1
-- Step 2
-- Step 3
-- Step 4
+- Inspect DNS A-Records on the server (hostname to IP Address mappings)
+- Create some of our own A-Records on the server and observe from the client
+- Delete records from the server and inspect/clear the client DNS cache to gain understanding
+- Discuss CNAME records (mapping one name to another name)
 
 <h2>Actions and Observations</h2>
 
