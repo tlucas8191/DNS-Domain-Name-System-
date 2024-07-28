@@ -1,5 +1,6 @@
 <p align="center">
-<img src="https://i.imgur.com/roNiQqw.png" alt="DNS _ IPS ADDRESS Logo"/>
+<img src="https://i.imgur.com/zaxJ5Ae.png" alt="DNS _ IPS ADDRESS Logo"/>
+<img src="https://i.imgur.com/roNiQqw.png" alt="DNS _ IPS ADDRESS Logo 2"/>
 </p>
 
 <h1>Building Intuition for DNS</h1>
@@ -118,7 +119,12 @@ In this step, we went back to DC-1 and created a CNAME record that points the ho
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/wHJv2Mu.png" height="80%" width="80%" alt="pinged 'search' again, successful"/>
+<img src="https://i.imgur.com/53mbs3n.png" height="80%" width="80%" alt="pinged 'search' again 2, successful"/>
+<img src="https://i.imgur.com/ogzIZrl.png" height="80%" width="80%" alt="pinged 'search' again 3, successful"/>
+<img src="https://i.imgur.com/Lgc9Liq.png" height="80%" width="80%" alt="pinged 'search' again 4, successful"/>
+<img src="https://i.imgur.com/bCtU7pV.png" height="80%" width="80%" alt="pinged 'search' again 5, successful"/>
+<img src="https://i.imgur.com/VlqlR8U.png" height="80%" width="80%" alt="pinged 'search' again 6, successful"/>
 </p>
 <p>
 In the last part of this lab, we went back to Client-1 and attempted to ping “search”, and we observed the results of the CNAME record.  Also, on Client-1, we did an nslookup for “search”, and observed the results of the CNAME record.  The CNAME record for 'search' should point to 'www.google.com'.
