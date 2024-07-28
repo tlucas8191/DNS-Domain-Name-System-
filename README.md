@@ -121,6 +121,6 @@ In this step, we went back to DC-1 and created a CNAME record that points the ho
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+In the last part of this lab, we went back to Client-1 and attempted to ping “search”, and we observed the results of the CNAME record.  Also, on Client-1, we did an nslookup for “search”, and observed the results of the CNAME record.  The CNAME record for 'search' should point to 'www.google.com'.
 </p>
 <br />
